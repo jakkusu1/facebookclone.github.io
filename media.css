@@ -1,0 +1,25 @@
+@media only screen and (max-width: 800px) {
+    #searchSec {
+        width: 35px;
+    }
+    .searchInput {
+        display: none;
+    }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 900px) {
+    #rightSidebar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+    #leftSidebar {
+        background-color: #242526;
+        width: 60px;
+    }
+    #leftSidebar li>span {
+        display: none;
+    }
+}
